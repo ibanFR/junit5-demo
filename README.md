@@ -6,6 +6,9 @@ JUnit 5 playground project to showcase following themes:
 ## Display Name Generation
 Use @DisplayName and @DisplayNameGeneration to improve test readability.
 
+Setting up default displayname generator
+`mvn test -Djunit.jupiter.displayname.generator.default=org.junit.jupiter.api.DisplayNameGenerator$ReplaceUnderscores`
+
 ## Junit5 tree reporter
 Use https://github.com/fabriciorby/maven-surefire-junit5-tree-reporter to add a tree view for the unit tests executed 
 using JUnit5.

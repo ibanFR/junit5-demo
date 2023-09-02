@@ -8,6 +8,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 class DisplayNameGeneratorDemoTest {
 
     @Test
+    void should_use_default_generation() {
+        Assertions.assertTrue(true);
+    }
+
+    @Test
     @DisplayName("should describe the behavior under test")
     void should_pass() {
         Assertions.assertTrue(true);
