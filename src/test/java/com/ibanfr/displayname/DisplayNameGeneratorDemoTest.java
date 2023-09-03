@@ -30,7 +30,7 @@ class DisplayNameGeneratorDemoTest {
 
         @Test
         @DisplayName("should display the content of the @DisplayName annotation")
-        void should_use_displayName_annotated_content(TestInfo testInfo) {
+        void shouldUseDisplayNameAnnotatedContent(TestInfo testInfo) {
             assertThat(testInfo.getDisplayName()).contains("should display the content of the @DisplayName annotation");
         }
     }
